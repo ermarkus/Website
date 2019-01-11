@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Eric Markus</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Assets/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    
+<body>
+
+<div class="header">    
+    <a  href="work.html"><h1 style="padding-right: 6px">WORK</h1></a>
+    <a  href="index.html"><h1>ERIC MARKUS!!!</h1></a>
+    <a href="about.html"><h1>ABOUT</h1></a>
+</div>
+
+<div class="header"><h2 style="padding: 9px 0px 0px 0px; text-align: left">Archer!</h2>
+    <h2><a style="cursor: pointer; user-select: none" onclick="plusSlides(-1)">Prev</a><a style="cursor: pointer; padding: 0px 1px 0px 16px; user-select: none" onclick="plusSlides(1)">Next</a></h2></div>
+    
+<div class="wrapper">
+    <div class="cwrapper">
+    
+    <div class="mySlides">
+        <img class="slide" src="Assets/A/A.png" alt="Magnum Topus"></div>
+        
+    <div class="buttons">
+        <a id="prevbutton" onclick="plusSlides(-1)"></a>
+        <a id="nextbutton" onclick="plusSlides(1)"></a>
+        
+    </div>
+    </div>
+
+    
+</div><div class="box"></div>
+        
+    
+<div class="info">
+    <h2>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</h2></div>
+
+  
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";}
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");}
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";}
+</script>
+    
+
+</body>
+</html>
