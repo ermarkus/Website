@@ -1,12 +1,12 @@
 @font-face {
     font-family: "agipoextended";
-    src: url(assets/fonts/agipo_regular_extended.otf) format("opentype");}
+    src: url(agipo_regular_extended.otf) format("opentype");}
 @font-face {
     font-family: "agipolight";
-    src: url(assets/fonts/agipo_light.otf) format("opentype");}
+    src: url(agipo_light.otf) format("opentype");}
 @font-face {
     font-family: "agipolightitalic";
-    src: url(assets/fonts/agipo_light_italic.otf) format("opentype");}
+    src: url(agipo_light_italic.otf) format("opentype");}
 
 body {
     margin: 36px 20vw 0px 20vw;}
