@@ -75,6 +75,13 @@ a:hover {
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);}
 
+.container2 {
+    width: 60vw;
+    position: absolute;
+    bottom: 36px;
+    -ms-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);}
+
 .buttons {
     padding-top: 6vh;
     text-align: center;
