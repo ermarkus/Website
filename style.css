@@ -453,7 +453,8 @@ a:hover img {
     position: absolute;
     width: calc(40vw - 46px); 
     display: inline-block; 
-    margin: 0 30vw 150px 30vw;
+    margin: 0 30vw 0px 30vw;
+    padding-bottom: 70px;
 }
 
 .hovertall{
