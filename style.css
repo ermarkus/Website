@@ -280,7 +280,7 @@ h1 {
     line-height: 32px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: calc(11px + 1.5vw);
+    font-size: calc(13px + 1.5vw);
     margin: 0px;
     padding: 0px;
     user-select: none;}
@@ -333,14 +333,18 @@ a:hover {
     text-align: center;
     width: calc(100vw - 46px);
     position: absolute;
-    top: calc(50vh - 40px);
+    top: calc(50vh - 50px);
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);}
 
 .container2 {
-    width: 60vw;
+    box-sizing: border-box;
+    padding-right: 44px;
+    width: 100vw;
+    text-align: center;
     position: absolute;
-    bottom: 36px;
+    margin-bottom: 6px;
+    bottom: 0px;
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);}
 
