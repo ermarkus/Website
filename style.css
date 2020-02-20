@@ -228,7 +228,7 @@ a:hover img {
 @media only screen and (max-width: 1100px) {
 
 body {
-    margin: 32px 40px 15px 40px} 
+    margin: 7px 15px 0px 15px} 
     
 .header {
     width: 100%}
@@ -332,7 +332,7 @@ a:hover {
     display: block;
     
     text-align: center;
-    width: calc(100vw - 80px);
+    width: calc(100vw - 30px);
     position: absolute;
     top: 50vh;
     -ms-transform: translate(0%, -50%);
