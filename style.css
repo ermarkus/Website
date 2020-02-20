@@ -281,7 +281,7 @@ h1 {
     line-height: 32px;
     letter-spacing: 1px;
     font-weight: 300;
-    font-size: calc(12px + 1.5vw);
+    font-size: calc(11px + 1.5vw);
     margin: 0px;
     padding: 0px;
     user-select: none;}
@@ -399,11 +399,10 @@ a:hover {
     height: 0;}
 
 .info {
-    position: fixed;
     box-sizing: border-box;
-    padding-right: 75px;
+    padding-right: 30px;
     margin-bottom: -22px;
-    bottom: 0;
+    margin-top: calc(100vh - 32px);
     width: 100vw;}
 
 #prevbutton {
