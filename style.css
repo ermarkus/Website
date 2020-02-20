@@ -401,10 +401,9 @@ a:hover {
 
 .info {
     box-sizing: border-box;
-    padding-right: 30px;
     margin-bottom: -22px;
-    margin-top: calc(100vh - 32px);
-    width: 100vw;}
+    margin-top: calc(100vh - 29px);
+    width: calc(100vw - 46px);}
 
 #prevbutton {
     display: inline-block;
