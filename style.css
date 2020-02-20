@@ -110,6 +110,13 @@ a:hover {
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);}
 
+.animation {
+    float: right; 
+    width: 10vw; 
+    display: inline-block; 
+    margin: -20px 6vw 30px 0px
+}
+
 .controls {
     text-align: center;
     margin-top: 15px;
@@ -269,7 +276,7 @@ body {
     display: block;
     width: 70vw;
     text-align: center;
-    margin: 10px 0 0 0 ;
+    margin: 2vh 0 0 0 ;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -385,7 +392,6 @@ a:hover {
 
 .slidebs {
     position: relative;
-    top: 5vh;
     width: 100vw;
     height: auto;}
 
@@ -441,6 +447,15 @@ a img {
 
 a:hover img {
     display:block;}
+    
+.animation {
+    top: calc(100vh + 160px);
+    position: absolute;
+    bottom: 0;
+    width: calc(40vw - 46px); 
+    display: inline-block; 
+    margin: 0 30vw 10px 30vw;
+}
 
 .hovertall{
     margin: 0;
