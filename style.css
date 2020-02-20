@@ -358,7 +358,8 @@ a:hover {
 
 .slide {
     position: relative;
-    width: 103vw;
+    width: 100vw;
+    top: 10vh;
     height: auto;}
 
 .slidegf {
@@ -371,17 +372,20 @@ a:hover {
 
 .slidebs {
     position: relative;
+    top: 10vh;
     width: 100vw;
     height: auto;}
 
 .slidewp {
     position: relative;
-    width: 100svw;
+    top: 10vh;
+    width: 100vw;
     height: auto;}
 
 .slidejm {
     position: relative;
     width: 94vw;
+    top: 10vh;
     height: auto;
     box-shadow: 0px 0px 10px lightgrey;}
 
