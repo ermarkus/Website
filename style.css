@@ -333,7 +333,7 @@ a:hover {
     text-align: center;
     width: calc(100vw - 46px);
     position: absolute;
-    top: calc(40vh - 40px);
+    top: calc(50vh - 40px);
     -ms-transform: translate(0%, -50%);
     transform: translate(0%, -50%);}
 
