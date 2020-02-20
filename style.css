@@ -449,12 +449,11 @@ a:hover img {
     display:block;}
     
 .animation {
-    top: calc(100vh + 160px);
+    top: calc(100vh + 170px);
     position: absolute;
-    bottom: 0;
     width: calc(40vw - 46px); 
     display: inline-block; 
-    margin: 0 30vw 10px 30vw;
+    margin: 0 30vw 50px 30vw;
 }
 
 .hovertall{
