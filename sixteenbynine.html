@@ -1,62 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Eric Markus</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/png" href="Assets/favicon.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
 <body>
-
-<div class="header">    
-    <a  href="work.html"><h1 style="padding-right: 10px">WORK</h1></a>
-    <a  href="index.html"><h1>ERIC MARKUS</h1></a>
-    <a href="about.html"><h1>ABOUT</h1></a>
-</div>
-    
-<div class="wrapper">
-    <div class="cwrapper">
-    
-    <div class="mySlides">
-        <img class="slide" src="Assets/SN/POSTER.png" alt="Magnum Topus"></div>
-    
-    </div>
-
-    
-</div><div class="box"></div>
-        
-    
-<div class="info">
-    <hr>
-    <h2>Monospace typeface designed to fit the 16 x 9 aspect ratio of the iPhone. Includes a horizontal and vertical variant.</h2></div>
-
-  
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";}
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");}
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";}
-</script>
-    
-
+    <header>    
+        <a href="work.html"><h1 style="padding-right: 10px">WORK</h1></a>
+        <a href="index.html"><h1>ERIC MARKUS</h1></a>
+        <a href="about.html"><h1>ABOUT</h1></a></header>
+    <div class="wrapper">
+        <div class="cwrapper">
+        <div class="mySlides">
+            <img class="slide" src="Assets/SN/POSTER.png" alt="Magnum Topus"></div></div></div>
+    <div class="box"></div>        
+    <div class="info">
+        <hr>
+        <h2>Monospace typeface designed to fit the 16 x 9 aspect ratio of the iPhone. Includes a horizontal and vertical variant.</h2></div>
+    <script>
+        var slideIndex = 1; showSlides(slideIndex);
+        function plusSlides(n) {showSlides(slideIndex += n);}
+        function currentSlide(n) {showSlides(slideIndex = n);}
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
+            for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";}</script>
 </body>
 </html>

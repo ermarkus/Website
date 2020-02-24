@@ -1,113 +1,69 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Eric Markus</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" type="image/png" href="Assets/favicon.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
 <body>
-
-<div class="header">    
-    <a  href="work.html"><h1 style="padding-right: 10px">WORK</h1></a>
-    <a  href="index.html"><h1>ERIC MARKUS</h1></a>
-    <a href="about.html"><h1>ABOUT</h1></a>
-</div>
-    
-<div class="wrapper">
-    <div class="cwrapper">
-    
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_01.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_02.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_03.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_04.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_05.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_06.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_07.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_08.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_09.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_11.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_12.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_13.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_14.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_15.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_16.jpg" alt="Magnum Topus"></div>
-        
-    <div class="mySlides">
-        <img class="slide" src="Assets/MT/MT_17.jpg" alt="Magnum Topus"></div>
-    
-    <div class="buttons">
-        <a id="prevbutton" onclick="plusSlides(-1)"></a>
-        <a id="nextbutton" onclick="plusSlides(1)"></a>
-        
-    </div>
-    </div>
-
-    
-</div><div class="box"></div>
-        
-    
-<div class="info">
-    <hr>
-    <h2>A book filled with as many toes as possible.</h2><h2>6<span style="letter-spacing: -0.5px">&#34; </span>× 9&#34; saddle-stitch book.
-</h2></div>
-
-  
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";}
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");}
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";}
-</script>
-    
-
+    <header>    
+        <a href="work.html"><h1 style="padding-right: 10px">WORK</h1></a>
+        <a href="index.html"><h1>ERIC MARKUS</h1></a>
+        <a href="about.html"><h1>ABOUT</h1></a></header>
+    <div class="wrapper">
+        <div class="cwrapper">
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_02.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_03.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_04.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_05.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_06.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_07.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_08.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_09.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_11.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_12.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_13.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_14.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_15.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_16.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/MT/MT_17.jpg" alt="Magnum Topus"></div>
+            <div class="buttons">
+                <a id="prevbutton" onclick="plusSlides(-1)"></a>
+                <a id="nextbutton" onclick="plusSlides(1)"></a></div></div></div>
+    <div class="box"></div>
+    <div class="info">
+        <hr>
+        <h2>A book filled with as many toes as possible.</h2><h2>6<span style="letter-spacing: -0.5px">&#34; </span>× 9&#34; saddle-stitch book.</h2></div>
+    <script>
+        var slideIndex = 1; showSlides(slideIndex);
+        function plusSlides(n) {showSlides(slideIndex += n);}
+        function currentSlide(n) {showSlides(slideIndex = n);}
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
+            for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";}</script>
 </body>
 </html>
