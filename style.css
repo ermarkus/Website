@@ -276,11 +276,7 @@ a:hover {
     }
     
 .container {
-    display: none;
-    width: 100%;
-    position: absolute;
-    top: 50vh;
-    }
+    display: none;}
 
 .containermobile {
     display: block;
