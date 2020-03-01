@@ -136,8 +136,7 @@ a:hover {
     padding-top: 6vh;
     text-align: center;
     position: absolute;
-    width: 100%;
-    height: calc(94vh - 139px);}
+    width: 100%;}
 
 .slide {
     margin-top: 40px;
