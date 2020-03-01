@@ -1,8 +1,8 @@
 /* DESKTOP */
 
 @font-face {
-    font-family: "agipoextended";
-    src: url(agipo_regular_extended.otf) format("opentype");}
+    font-family: "agiporegular";
+    src: url(agipo_regular.otf) format("opentype");}
 
 @font-face {
     font-family: "agipolight";
@@ -36,13 +36,17 @@ header {
 .splash_mobile {
     display: none;}
 
+.spacer {
+    height: 10px;
+}
+
 h1 {
     font-variant-ligatures: none;
-    font-family: agipoextended;
+    font-family: agiporegular;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 25px;
     line-height: 32px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin: 0;
     padding: 0;
     user-select: none;}
@@ -57,6 +61,16 @@ h2 {
     word-spacing: -0.5px;
     margin: 0;
     padding: 0;}
+
+b {
+    font-family: agiporegular;
+    font-weight: 500;
+}
+
+i {
+    font-family: agipolightitalic;
+    text-decoration: none;
+}
 
 a:link {
     color: black;
@@ -83,6 +97,14 @@ a:hover {
         -ms-transform: translate(0%, -50%);
         transform: translate(0%, -50%);}
 
+.arrows {
+    text-align: center;
+    width: 150px;
+    margin: 0 calc(35vw - 75px) 0 calc(35vw - 75px);
+    height: auto;
+    display: block;
+}
+
 .containermobile {
     display: none;}
 
@@ -97,9 +119,9 @@ a:hover {
 
 .animation {
     float: right; 
-    width: 10vw; 
+    width: 8vw; 
     display: inline-block; 
-    margin: -20px 6vw 30px 0px}
+    margin: 0px 27vw 30px 0px}
 
 .controls {
     text-align: center;
@@ -250,11 +272,12 @@ header {
 
 h1 {
     letter-spacing: 1px;
-    font-size: calc(11px + 1.5vw);}
+    font-size: 20px}
 
 h2 {
-    line-height: calc((8px + 1.5vw) x 1.6);
-    font-size: calc(8px + 1.5vw);
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    font-size: 14px;
     margin: 0px;
     padding: 8px 0px 0px 0px;}
     
@@ -268,7 +291,7 @@ h3 {
     font-size: calc(8px + 1.5vw);
     margin: 0px;
     padding: 8px 0px 0px 0px;}
-
+    
 a:active {
     }
 
@@ -351,6 +374,10 @@ a:hover {
 .cwrapper {
     box-sizing: border-box}
 
+.spacer {
+    height: 1px;
+}
+    
 .box {
     height: 0;}
 
