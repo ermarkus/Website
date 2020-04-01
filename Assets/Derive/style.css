@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "missionreg";
+    src: url(Mission-Gothic-Regular.otf) format("opentype");}
+
+@font-face {
+    font-family: "missionbold";
+    src: url(Mission-Gothic-Bold.otf) format("opentype");}
+
+
+* {
+    margin: 0;}
+
+body {background-color: black}
+
+.grad {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad2 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad3 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad4 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad5 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad6 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.grad7 {
+    background-image: linear-gradient(rgb(248, 255, 240), rgb(229, 255, 201));
+    height: 900px;}
+
+.container {
+    padding: 50px 0 50px 15vw;
+    height: 800px;}
+
+.list {
+    float: left;
+    width: 30vw;
+    padding-right: 10vw;}
+
+.video {
+    border: 5px solid black;
+    float: left;
+    width: 449px;
+    height: 799px}
+
+.div {
+    height: 5px;
+    background-color: black;}
+
+.player {
+    width: 100%;
+    z-index: 5;}
+
+h1 {
+    font-family: missionreg, sans-serif;
+    font-weight: 400;
+    font-size: 40px}
+
+h2 {
+    font-family: missionbold, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;}
