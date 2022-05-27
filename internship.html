@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eric Markus</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Assets/favicon.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+<body>
+    <header>    
+        <a  href="work.html"><h1 style="padding-right: 5px">WORK</h1></a>
+        <a  href="index.html"><h1>ERIC MARKUS</h1></a>
+        <a href="about.html"><h1>ABOUT</h1></a></header>
+    <div class="wrapper">
+        <div class="cwrapper">
+            <div class="mySlides">
+                <img class="slidei" src="Assets/I/JM4_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slidei" src="Assets/I/JM4_02.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slidei" src="Assets/I/NYBG2_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slidei" src="Assets/I/NYBG2_02.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM1_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM1_04.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM1_05.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM1_06.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM3_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM3_02.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM3_03.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM3_04.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/NYBG1_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/NYBG1_04.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/NYBG1_05.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM2_01.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM2_04.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM2_05.jpg" alt="Magnum Topus"></div>
+            <div class="mySlides">
+                <img class="slide" src="Assets/I/JM2_06.jpg" alt="Magnum Topus"></div>
+            <div class="buttons">
+                <a id="prevbutton" onclick="plusSlides(-1)"></a>
+                <a id="nextbutton" onclick="plusSlides(1)"></a></div></div></div>
+    <div class="box"></div>
+    <div class="info">
+        <h2><b>Internship Work</b><br>
+        Various treatments</h2>
+        <div class="spacer"></div>
+        <h2>Several print pieces for the Jewish Museum and the New York Botanical Garden.</h2></div>
+    <script>
+        var slideIndex = 1; showSlides(slideIndex);
+        function plusSlides(n) {showSlides(slideIndex += n);}
+        function currentSlide(n) {showSlides(slideIndex = n);}
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {slides[i].style.display = "none";}
+            for (i = 0; i < dots.length; i++) {dots[i].className = dots[i].className.replace(" active", "");}
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";}</script>
+</body>
+</html>
