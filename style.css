@@ -1,21 +1,11 @@
 @font-face {
-    font-family: "CormorantGaramond-Light";
-    src: url(CormorantGaramond-Light.ttf) format("truetype");
+    font-family: "SortsMillGoudy-Regular";
+    src: url(SortsMillGoudy-Regular.ttf) format("truetype");
 }
 
 @font-face {
-    font-family: "CormorantGaramond-LightItalic";
-    src: url(CormorantGaramond-LightItalic.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "CormorantGaramond-Regular";
-    src: url(CormorantGaramond-Regular.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "CormorantGaramond-Medium";
-    src: url(CormorantGaramond-Medium.ttf) format("truetype");
+    font-family: "SortsMillGoudy-Italic";
+    src: url(SortsMillGoudy-Italic.ttf) format("truetype");
 }
 
 @keyframes bg {
@@ -59,7 +49,7 @@
 }
 
 .container-a {
-    padding: 0 30vw;
+    padding: 0 25vw;
     position: absolute;
         top: 50%;
     -ms-transform: translateY(-56%);
@@ -73,7 +63,7 @@
 }
 
 .container-c {
-    padding: 0 30vw;
+    padding: 0 25vw;
 }
 
 .wrapper {
@@ -93,35 +83,36 @@ header {
 }
 
 h1 {
-    font-family: CormorantGaramond-Regular;
-    font-size: 50px;
+    font-family: SortsMillGoudy-Regular;
+    font-size: 24px;
     font-weight: 100;
     text-indent: 40px; 
 }
 
 h2 {
-    font-family: CormorantGaramond-Regular;
-    font-size: 36px;
+    font-family: SortsMillGoudy-Regular;
+    font-size: 30px;
     font-weight: 100;
 }
 
 h3 {
-    font-family: CormorantGaramond-Regular;
-    font-size: 20px;
+    font-family: SortsMillGoudy-Regular;
+    font-size: 16px;
     font-weight: 100;
     padding-top: 7px; 
 }
 
 p {
-    font-family: CormorantGaramond-Light;
+    font-family: SortsMillGoudy-Regular;
     font-size: 24px;
     font-weight: 100;
-    line-height: 32px;
+    letter-spacing: 0.3px;
+    line-height: 36px;
     padding-top: 16px;
 }
 
 a {
-    font-family: CormorantGaramond-Light;
+    font-family: SortsMillGoudy-Regular;
     font-size: 24px;
     font-weight: 100;
     color: black;
@@ -129,11 +120,13 @@ a {
 }
 
 a.italic {
-    font-family: CormorantGaramond-LightItalic;
+    font-family: SortsMillGoudy-Italic;
+    letter-spacing: 0.6;
 }
 
 a:hover {
-    font-family: CormorantGaramond-LightItalic;
+    font-family: SortsMillGoudy-Italic;
+    letter-spacing: 0.6;
 }
 
 .here {
@@ -145,7 +138,8 @@ a:hover {
 }
 
 .here:hover {
-    font-family: CormorantGaramond-Light;
+    font-family: SortsMillGoudy-Regular;
+    letter-spacing: 0.3px;
 }
 
 @media only screen and (max-width: 1400px) {
