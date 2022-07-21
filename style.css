@@ -152,7 +152,7 @@ a:hover {
         padding: 0 25vw;
 }   }
 
-@media only screen and (max-width: 900px) {   
+@media only screen and (max-width: 480px) {   
     
     .container-a {
         padding: 0 40px;
