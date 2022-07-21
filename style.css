@@ -52,8 +52,8 @@
     padding: 0 25vw;
     position: absolute;
         top: 50%;
-    -ms-transform: translateY(-56%);
-        transform: translateY(-56%);
+    -ms-transform: translateY(-80%);
+        transform: translateY(-80%);
 }
 
 .container-b {
