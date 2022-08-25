@@ -62,6 +62,18 @@
     text-align: center;
 }
 
+.container-b2 {
+    width: calc(30vw - 20px);
+    padding: 0 0 0 20vw;
+    float: left;
+}
+
+.container-b3 {
+    width: calc(30vw - 20px);
+    padding-left: 40px;
+    float: left;
+}
+
 .container-c {
     padding: 0 25vw;
 }
@@ -73,6 +85,11 @@
 
 .wrapper {
     width: 60vw;
+}
+
+.wrapper2 {
+    width: calc(30vw - 20px);
+    float: left;
 }
 
 * {
