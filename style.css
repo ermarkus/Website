@@ -51,9 +51,9 @@
 .container-a {
     padding: 0 25vw;
     position: absolute;
-        top: 50%;
-    -ms-transform: translateY(-60%);
-        transform: translateY(-60%);
+        top: 30%;
+    -ms-transform: translateY(-30%);
+        transform: translateY(-30%);
 }
 
 .container-b {
@@ -100,7 +100,7 @@
 header {
     width: auto;
     height: auto;
-    padding: 54px 60px 0 60px;
+    padding: 60px;
     position: fixed;
 }
 
@@ -129,7 +129,8 @@ p {
     font-family: SortsMillGoudy-Regular;
     font-size: 24px;
     font-weight: 100;
-    line-height: 36px;
+    line-height: 38px;
+    letter-spacing: 0.1px;
     padding-top: 16px;
 }
 
@@ -152,6 +153,7 @@ a:hover {
 }
 
 .here {
+    font-size: 24px;
     z-index: 2;
     -webkit-animation: here 10s infinite;
             animation: here 10s infinite;
@@ -161,7 +163,6 @@ a:hover {
 
 .here:hover {
     font-family: SortsMillGoudy-Regular;
-    letter-spacing: 0.3px;
 }
 
 @media only screen and (max-width: 1400px) {
