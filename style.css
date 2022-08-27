@@ -3,49 +3,8 @@
     src: url(SortsMillGoudy-Regular.ttf) format("truetype");
 }
 
-@font-face {
-    font-family: "SortsMillGoudy-Italic";
-    src: url(SortsMillGoudy-Italic.ttf) format("truetype");
-}
-
-@keyframes bg {
-    0%   {background-color: #33b1ff}
-    20%  {background-color: #76e52e}
-    40%  {background-color: #ff6700}
-    60%  {background-color: #ff0062}
-    80%  {background-color: #7600ff}
-    100% {background-color: #33b1ff}
-}
-
-@keyframes here {
-    0%   {color: #33b1ff}
-    20%  {color: #76e52e}
-    40%  {color: #ff6700}
-    60%  {color: #ff0062}
-    80%  {color: #7600ff}
-    100% {color: #33b1ff}
-}
-
-.bg-x{
-    width: 100vw;
-    height: 20px;
-    position: fixed;
-    z-index: 2;
-    -webkit-animation: bg 10s infinite;
-            animation: bg 10s infinite;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-}
-
-.bg-y {
-    width: 20px;
-    height: 100vh;
-    position: fixed;
-    z-index: 2;
-    -webkit-animation: bg 10s infinite;
-            animation: bg 10s infinite;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
+.foot {
+    padding: 0 5vw 100px 5vw;
 }
 
 .container-a {
@@ -78,11 +37,6 @@
     padding: 0 25vw;
 }
 
-.container-d {
-    width: 66%; 
-    padding-left: 17%;
-}
-
 .wrapper {
     width: 60vw;
 }
@@ -95,34 +49,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-header {
-    width: auto;
-    height: auto;
-    padding: 60px;
-    position: fixed;
-}
-
-h1 {
     font-family: SortsMillGoudy-Regular;
-    font-size: 24px;
-    font-weight: 100;
-    text-indent: 40px; 
-}
-
-h2 {
-    font-family: SortsMillGoudy-Regular;
-    font-size: 30px;
-    font-weight: 100;
-}
-
-h3 {
-    font-family: sans-serif;
-    letter-spacing: 0.3px;
-    font-size: 13px;
-    font-weight: 500;
-    padding-top: 5px; 
 }
 
 p {
@@ -138,44 +65,60 @@ a {
     font-family: SortsMillGoudy-Regular;
     font-size: 24px;
     font-weight: 100;
-    color: black;
+    color: rgb(0, 0, 255);
     text-decoration: none;
 }
 
-a.italic {
-    font-family: SortsMillGoudy-Italic;
-    letter-spacing: 0.6;
-}
-
 a:hover {
-    font-family: SortsMillGoudy-Italic;
-    letter-spacing: 0.6;
+    text-decoration: underline;;    
 }
 
-.here {
-    font-size: 24px;
-    z-index: 2;
-    -webkit-animation: here 10s infinite;
-            animation: here 10s infinite;
-    -webkit-animation-direction: normal;
-            animation-direction: normal;
-}
-
-.here:hover {
-    font-family: SortsMillGoudy-Regular;
-}
-
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1080px) {   
+    
+    .foot {
+        padding: 0 0 120px 0 
+    }
     
     .container-a {
-        padding: 0 25vw;
+        padding: 0 120px;
+    }
+    
+    .container-b {
+        width: auto;
+        padding: 0 120px;
     }
     
     .container-c {
-        padding: 0 25vw;
-}   }
+        padding: 0 120px;
+    }
+    
+    .container-d {
+        width: auto;
+        padding: 120px;
+    }
+    
+    .wrapper {
+        width: 100%;
+    }
+    
+    .wrapper2 {
+    width: calc(50vw - 140px);
+    float: left;
+}
+    
+    .container-b2 {
+    width: calc(50vw - 140px);
+    padding: 0 0 0 120px;
+    float: left;
+}
 
-@media only screen and (max-width: 900px) {   
+.container-b3 {
+    width: calc(50vw - 140px);
+    padding-left: 40px;
+    float: left;
+}
+
+@media only screen and (max-width: 720px) {   
     
     .container-a {
         padding: 0 40px;
@@ -199,12 +142,28 @@ a:hover {
         width: 100%;
     }
     
-    header {
-        position: absolute;
-        padding: 34px 40px;
+    .wrapper2 {
+    width: calc(50vw - 60px);
+    float: left;
+}
+    
+    p {
+        font-size: 28px;
+        line-height: 40px;
     }
     
-    h1 {
-        text-align: center;
-        text-indent: 0px;
-}   }
+    .container-b2 {
+    width: calc(50vw - 60px);
+    padding: 0 0 0 40px;
+    float: left;
+}
+    
+    a {
+        font-size: 28px;
+    }
+
+.container-b3 {
+    width: calc(50vw - 60px);
+    padding-left: 40px;
+    float: left;
+}
