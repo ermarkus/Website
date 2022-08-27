@@ -4,15 +4,24 @@
 }
 
 .foot {
-    padding: 0 5vw 100px 5vw;
+    padding: 0 5vw 60px 5vw;
+}
+
+.buffer {
+    height: 100vh;
 }
 
 .container-a {
+    margin: 49vh 25vw 77px 25vw;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.ss {
     padding: 0 25vw;
     position: absolute;
-        top: 30%;
-    -ms-transform: translateY(-30%);
-        transform: translateY(-30%);
+    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 
 .container-b {
@@ -73,14 +82,21 @@ a:hover {
     text-decoration: underline;;    
 }
 
-@media only screen and (max-width: 1080px) {   
+@media only screen and (max-width: 1200px) {   
+    
+    .buffer {
+    height: 0;
+}
     
     .foot {
-        padding: 0 0 120px 0 
+        padding: 0 0 300px 0 
     }
     
     .container-a {
-        padding: 0 120px;
+        padding: 77px 120px;
+        margin: 0;
+        position: inherit;
+        transform: translateY(0%);
     }
     
     .container-b {
@@ -117,11 +133,20 @@ a:hover {
     padding-left: 40px;
     float: left;
 }
+    
+    p {
+        font-size: 28px;
+        line-height: 44px;
+    }
 
-@media only screen and (max-width: 720px) {   
+        a {
+        font-size: 28px;
+    }
+    
+@media only screen and (max-width: 900px) {   
     
     .container-a {
-        padding: 0 40px;
+        padding: 16px 40px 77px 40px;
     }
     
     .container-b {
@@ -147,20 +172,11 @@ a:hover {
     float: left;
 }
     
-    p {
-        font-size: 28px;
-        line-height: 40px;
-    }
-    
     .container-b2 {
     width: calc(50vw - 60px);
     padding: 0 0 0 40px;
     float: left;
 }
-    
-    a {
-        font-size: 28px;
-    }
 
 .container-b3 {
     width: calc(50vw - 60px);
