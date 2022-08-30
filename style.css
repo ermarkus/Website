@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Goudy";
+    src: url(SortsMillGoudy-Regular.ttf);}
+
+* {
+    font-family: Goudy;
+    font-size: 23px;
+    line-height: 36px;
+    letter-spacing: 0.2px;
+    margin: 0;}
+
+body {
+    margin: 0;
+    padding: 0;}
+
+header {
+    margin: 0 25vw;
+    padding-top: 25px;}
+
+footer {
+    margin: 0 25vw;
+    padding: 25px 0 25px 0;}
+
+.column {
+    margin: 20px 18vw 0 18vw;
+    margin-bottom: -12px;
+    width: 64vw;}
+
+.grid-left {
+    padding: 20px 0 0 18vw;
+    margin-bottom: -12px; 
+    width: calc(32vw - 10px);}
+
+.grid-right {
+    padding: 20px 18vw 0 0;
+    width: calc(32vw - 10px);
+    float: right;}
+
+.text-block {
+    padding: 60px 25vw 40px 25vw;
+    width: 50vw;}
+
+.title {
+    padding-top: 60px;
+    text-align: center;}
+
+a:link {
+    color: blue;
+    text-decoration: none;}
+
+a:visited {
+    color: blue;}
+
+a:hover {
+    color: black;}
+
+@media only screen and (max-width: 1200px) {  /* Smaller */
+
+* {
+    font-size: 28px;
+    line-height: 40px;}
+
+header {
+    margin: 0 80px;}
+
+footer {
+    margin: 0 80px;
+    padding: 25px 0 80px 0;}
+
+.column {
+    margin: 20px 20px 0 20px;
+    width: calc(100vw - 40px);}
+
+.grid-left {
+    padding: 20px 0 0 20px;
+    width: calc(50vw - 30px);}
+
+.grid-right {
+    padding: 20px 20px 0 0;
+    width: calc(50vw - 30px);
+    float: right;}
+
+.text-block {
+    padding: 54px 80px 40px 80px;
+    width: calc(100vw - 160px);}}
+
+@media only screen and (max-width: 720px) {  /* Smallest */
+
+header {
+    margin: 0 22px 0 22px;}
+
+footer {
+    margin: 0 22px;}
+
+.column {
+    margin: 20px 0 0 0 ;
+    width: 100vw;}
+
+.grid-left {
+    padding: 20px 0 0 0;
+    width: calc(50vw - 10px);}
+
+.grid-right {
+    padding: 20px 0 0 0;
+    width: calc(50vw - 10px);
+    float: right;}
+
+.text-block {
+    padding: 60px 0 40px 22px;
+    width: calc(100vw - 22px);}}
