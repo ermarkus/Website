@@ -47,11 +47,11 @@ footer {
     width: 50vw;}
 
 .title {
-    padding: 120px 0 20px 25vw;}
+    margin: 120px 0 20px 25vw;}
 
-.line {
-    width: 80vw;
-    padding: 0 10vw 0 10vw;}
+.bar {
+    width: 75vw; 
+    padding-left: 12.5vw}
 
 a:link {
     color: blue;
@@ -61,13 +61,13 @@ a:visited {
     color: blue;}
 
 a:hover {
-    color: black;}
+    color: lightgray;}
 
-@media only screen and (max-width: 1200px) {  /* Smaller */
+@media only screen and (max-width: 1100px) {  /* Smaller */
 
 * {
-    font-size: 28px;
-    line-height: 40px;}
+    font-size: 40px;
+    line-height: 60px;}
 
 header {
     margin: 0 80px;}
@@ -90,22 +90,22 @@ footer {
     float: right;}
 
 .text-block {
-    padding: 80px 80px 50px 80px;
+    padding: 80px 80px 80px 80px;
     width: calc(100vw - 160px);}
     
-    .description {
-        padding: 80px 80px 50px 80px;
-    width: calc(100vw - 160px);
-    }
+.description {
+    padding: 80px 80px 80px 80px;
+    width: calc(100vw - 160px);}
 
 .title {
-    padding: 70px 0 0 80px;}}
+    margin: 80px 0 0 80px;}
 
-.line {
-    padding: 0 20px 0 20px;
-    width: calc(100vw - 40px);}
+.bar {
+    width: calc(100vw - 40px);
+    padding-left: 20px}}
 
-@media only screen and (max-width: 720px) {  /* Smallest */
+
+/* @media only screen and (max-width: 800px) {
 
 header {
     margin: 0 22px 0 22px;}
@@ -130,10 +130,13 @@ footer {
     padding: 60px 12px 40px 22px;
     width: calc(100vw - 34px);}
     
-    .description {
-        padding: 60px 12px 40px 22px;
-    width: calc(100vw - 34px);
-    }
+.description {
+    padding: 60px 12px 50px 22px;
+    width: calc(100vw - 34px);}
 
 .title {
-    padding: 80px 0 0 22px;}}
+    margin: 50px 0 0 22px;}
+
+.bar {
+    padding: 0;
+    width: 100vw;}
