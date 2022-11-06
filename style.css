@@ -4,10 +4,12 @@
 
 * {
     font-family: Goudy;
-    font-size: 23px;
+    font-size: 24px;
     line-height: 36px;
-    letter-spacing: 0.2px;
-    margin: 0;}
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    margin: 0;
+    text-justify: inter-character;}
 
 body {
     margin: 0;
@@ -37,12 +39,19 @@ footer {
     float: right;}
 
 .text-block {
-    padding: 60px 25vw 40px 25vw;
+    padding: 85px 25vw 70px 25vw;
+    width: 50vw;}
+
+.description {
+    padding: 160px 25vw 160px 25vw;
     width: 50vw;}
 
 .title {
-    padding-top: 60px;
-    text-align: center;}
+    padding: 120px 0 20px 25vw;}
+
+.line {
+    width: 80vw;
+    padding: 0 10vw 0 10vw;}
 
 a:link {
     color: blue;
@@ -81,8 +90,20 @@ footer {
     float: right;}
 
 .text-block {
-    padding: 54px 80px 40px 80px;
-    width: calc(100vw - 160px);}}
+    padding: 80px 80px 50px 80px;
+    width: calc(100vw - 160px);}
+    
+    .description {
+        padding: 80px 80px 50px 80px;
+    width: calc(100vw - 160px);
+    }
+
+.title {
+    padding: 70px 0 0 80px;}}
+
+.line {
+    padding: 0 20px 0 20px;
+    width: calc(100vw - 40px);}
 
 @media only screen and (max-width: 720px) {  /* Smallest */
 
@@ -106,5 +127,13 @@ footer {
     float: right;}
 
 .text-block {
-    padding: 60px 0 40px 22px;
-    width: calc(100vw - 22px);}}
+    padding: 60px 12px 40px 22px;
+    width: calc(100vw - 34px);}
+    
+    .description {
+        padding: 60px 12px 40px 22px;
+    width: calc(100vw - 34px);
+    }
+
+.title {
+    padding: 80px 0 0 22px;}}
