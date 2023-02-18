@@ -17,7 +17,7 @@ body {
 
 header {
     margin: 0 25vw;
-    padding-top: 25px;}
+    padding: 25px 0;}
 
 footer {
     margin: 0 25vw;
@@ -27,6 +27,11 @@ footer {
     margin: 20px 18vw 0 18vw;
     margin-bottom: -12px;
     width: 64vw;}
+
+.link:hover {
+    opacity: 0.5;
+    transition: .5s;
+}
 
 .grid-left {
     padding: 20px 0 0 18vw;
@@ -43,25 +48,33 @@ footer {
     width: 50vw;}
 
 .description {
-    padding: 160px 25vw 160px 25vw;
+    padding: 60px 25vw 60px 25vw;
     width: 50vw;}
 
 .title {
-    margin: 120px 0 20px 25vw;}
+    margin: 120px 0 15px 0;
+    text-align: center;}
 
 .bar {
     width: 75vw; 
     padding-left: 12.5vw}
 
+.barr {
+    width: 75vw; 
+    padding-left: 12.5vw;
+    padding-top: 120px;}
+
 a:link {
     color: blue;
-    text-decoration: none;}
+    text-decoration: none;
+transition: .7s}
 
 a:visited {
     color: blue;}
 
 a:hover {
-    color: lightgray;}
+    color: lightgray;
+    transition: .3s}
 
 @media only screen and (max-width: 1100px) {  /* Smaller */
 
@@ -102,7 +115,12 @@ footer {
 
 .bar {
     width: calc(100vw - 40px);
-    padding-left: 20px}}
+    padding-left: 20px}
+
+.barr {
+    width: calc(100vw - 40px);
+    padding-left: 20px;
+    padding-top: 80px;}}
 
 
 /* @media only screen and (max-width: 800px) {
